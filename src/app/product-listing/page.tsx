@@ -25,27 +25,27 @@ export default function Chair() {
 
                 {/* Desktop Menu */}
                 <ul className="hidden lg:flex text-center text-gray-400 gap-4">
-                    <li>
-                        <Link href={"/"}>Plant pots</Link>
-                    </li>
-                    <li>
-                        <Link href={"/"}>Ceramics</Link>
-                    </li>
-                    <li>
-                        <Link href={"/"}>Tables</Link>
-                    </li>
-                    <li>
-                        <Link href={"/"}>Chairs</Link>
-                    </li>
-                    <li>
-                        <Link href={"/"}>Crockery</Link>
-                    </li>
-                    <li>
-                        <Link href={"/"}>Tableware</Link>
-                    </li>
-                    <li>
-                        <Link href={"/"}>Cutlery</Link>
-                    </li>
+                <li>
+                    <Link href={"/"}>Home</Link>
+                </li>
+                <li>
+                    <Link href={"/about"}>About </Link>
+                </li>
+                <li>
+                    <Link href={"/product-listing"}>Chairs</Link>
+                </li>
+                <li>
+                    <Link href={"/shopping-cart "}>Shopping baskets</Link>
+                </li>
+                <li>
+                    <Link href={"/"}>Product listing</Link>
+                </li>
+                <li>
+                    <Link href={"/all-products"}>All Products</Link>
+                </li>
+                <li>
+                    <Link href={"/"}>Cutlery</Link>
+                </li>
                 </ul>
 
                 {/* Icons */}
@@ -135,7 +135,12 @@ export default function Chair() {
 
 
             </div>
+            <h2 className="text-left text-2xl text-gray-500 px-5 pb-8">New Ceramics</h2>
             <Ceramics />
+            {/* Button */}
+            <div className="flex items-center justify-center pt-10">
+                    <button className="px-4 py-2 bg-gray-300">View collection</button>
+                </div>
             <Brandsec />
             <div className="bg-gray-100 py-10 px-6 sm:px-12 md:px-24 mt-20">
                 <div className="bg-white py-10 px-6 sm:px-16 md:px-72">

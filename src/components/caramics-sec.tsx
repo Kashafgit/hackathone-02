@@ -5,7 +5,7 @@ export default function Ceramics() {
     return (
         <>
             <div className="p-5">
-                <h2 className="text-left text-2xl text-gray-500 px-5 pb-8">New Ceramics</h2>
+               
 
               
                 <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
@@ -56,10 +56,7 @@ export default function Ceramics() {
 
                 </div>
 
-                {/* Button */}
-                <div className="flex items-center justify-center pt-10">
-                    <button className="px-4 py-2 bg-gray-300">View collection</button>
-                </div>
+                
 
             </div>
         </>

@@ -22,7 +22,7 @@ export default function Topbar() {
                             <SheetTrigger>
                                 <Menu className="cursor-pointer" />
                             </SheetTrigger>
-                            <SheetContent side="right" className="w-3/4">
+                            <SheetContent side="right" className="w-[300px]">
                               
                                 <Navbar vertical={true} />
                             </SheetContent>

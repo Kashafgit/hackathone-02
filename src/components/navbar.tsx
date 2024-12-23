@@ -5,22 +5,22 @@ export default function Navbar({ vertical = false }) {
         <div className={`p-4 ${vertical ? "flex flex-col gap-4" : "flex justify-center items-center"}`}>
             <ul className={`flex ${vertical ? "flex-col" : "gap-6"} text-center text-gray-400`}>
                 <li>
-                    <Link href={"/"}>Plant pots</Link>
+                    <Link href={"/"}>Home</Link>
                 </li>
                 <li>
-                    <Link href={"/"}>Ceramics</Link>
+                    <Link href={"/about"}>About </Link>
                 </li>
                 <li>
-                    <Link href={"/"}>Tables</Link>
+                    <Link href={"/product-listing"}>Chairs</Link>
                 </li>
                 <li>
-                    <Link href={"/"}>Chairs</Link>
+                    <Link href={"/shopping-cart "}>Shopping baskets</Link>
                 </li>
                 <li>
-                    <Link href={"/"}>Crockery</Link>
+                    <Link href={"/"}>Product listing</Link>
                 </li>
                 <li>
-                    <Link href={"/"}>Tableware</Link>
+                    <Link href={"/all-products"}>All Products</Link>
                 </li>
                 <li>
                     <Link href={"/"}>Cutlery</Link>
